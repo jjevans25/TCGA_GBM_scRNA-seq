@@ -66,7 +66,7 @@ TCGA_GBM_scRNA-seq/
   - **SCT-normalized expression** in `adata.X`
   - **Batch labels** per patient in `adata.obs["batch"]`
 
-> **Note:** The `.h5ad` data files and raw GDC downloads are excluded from version control due to their size (~2–3 GB each). Use the sample sheet and steps below to reproduce the dataset locally.
+> **Note:** The `.h5ad` data files and raw GDC downloads are excluded from version control due to their size (~5 GB total). Use the sample sheet and steps below to reproduce the dataset locally.
 
 ### Reproducing the Dataset
 
@@ -159,11 +159,13 @@ pip install -r requirements.txt
 ### Reproducing the Analysis
 
 1. **Prepare the data** — Run `TCGA_GBM_Preprocessing.ipynb` to build `gbm_data.h5ad` from raw GDC files
-2. **Run the analysis** — Execute `scVI_GBM_analysis.ipynb` end-to-end, or use the standalone training script:
+2. **Train the scVI model** — Use the standalone training script, which covers QC, HVG selection, and model training/saving (steps 1–4 of the analysis notebook):
 
 ```bash
 python model_training.py
 ```
+
+3. **Run downstream analysis** — Open `scVI_GBM_analysis.ipynb` for the full pipeline, including latent space visualization, Leiden clustering, differential expression, and cell type annotation (steps 5–9)
 
 ---
 
