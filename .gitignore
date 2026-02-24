@@ -1,0 +1,29 @@
+# Data files (too large for GitHub)
+*.h5ad
+data/
+
+# Saved models
+scvi_model_gbm/
+scvi_model_gbm_2/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE / Editor
+.vscode/
+*.code-workspace
+
+# Testing notebooks (not for distribution)
+test_colab_compatibility.ipynb
+
+# Agents config
+.agents/
