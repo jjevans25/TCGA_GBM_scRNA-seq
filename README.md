@@ -75,25 +75,25 @@ The included [`gdc_sample_sheet.2026-02-24.tsv`](gdc_sample_sheet.2026-02-24.tsv
 <details>
 <summary><b>17 CPTAC-3 Case IDs</b> (click to expand)</summary>
 
-| Case ID | Sample ID | Tissue Type |
-|------------|--------------|-------------|
-| C3N-03188 | C3N-03188-02 | Tumor |
-| C3N-03186 | C3N-03186-01 | Tumor |
-| C3L-03405 | C3L-03405-01 | Tumor |
-| C3N-03184 | C3N-03184-02 | Tumor |
-| C3N-02190 | C3N-02190-01 | Tumor |
-| C3N-01814 | C3N-01814-01 | Tumor |
-| C3N-01816 | C3N-01816-01 | Tumor |
-| C3N-02181 | C3N-02181-02 | Tumor |
-| C3N-01815 | C3N-01815-01 | Tumor |
-| C3N-01798 | C3N-01798-01 | Tumor |
-| C3N-00662 | C3N-00662-03 | Tumor |
-| C3N-02188 | C3N-02188-03 | Tumor |
-| C3L-02705 | C3L-02705-71 | Tumor |
-| C3N-02783 | C3N-02783-05 | Tumor |
-| C3N-02769 | C3N-02769-02 | Tumor |
-| C3L-03968 | C3L-03968-01 | Tumor |
-| C3N-02784 | C3N-02784-01 | Tumor |
+| File ID | Case ID | Sample ID | Tissue Type |
+|--------------------------------------|------------|--------------|-------------|
+| 903b7af4-a936-4c0e-8cff-87085c3faa31 | C3N-03188 | C3N-03188-02 | Tumor |
+| 5212fe36-192c-44a3-88f4-4c6e696b583c | C3N-03186 | C3N-03186-01 | Tumor |
+| 08418175-0464-4b33-86e3-416c30189bd2 | C3L-03405 | C3L-03405-01 | Tumor |
+| f8b54be7-f58e-4881-9147-40df9cef487b | C3N-03184 | C3N-03184-02 | Tumor |
+| 06820e2c-9eb7-4e71-a1c3-976d561e659d | C3N-02190 | C3N-02190-01 | Tumor |
+| 44dcf3b7-977a-410f-8901-412697377924 | C3N-01814 | C3N-01814-01 | Tumor |
+| 9f0f5520-2bc4-47ba-9966-0831f11ae5fd | C3N-01816 | C3N-01816-01 | Tumor |
+| 8c0685b3-521e-45a6-9677-f8e3f186e09b | C3N-02181 | C3N-02181-02 | Tumor |
+| 18d92af9-a7d0-47f2-84e2-6f4cc0dee298 | C3N-01815 | C3N-01815-01 | Tumor |
+| 21521784-3a62-4989-bd29-0f920e1eaa2b | C3N-01798 | C3N-01798-01 | Tumor |
+| ae4dc06f-fc6d-4557-9a22-ab81504c2953 | C3N-00662 | C3N-00662-03 | Tumor |
+| 7eac574d-04fa-435d-8b4d-35da0100ecb9 | C3N-02188 | C3N-02188-03 | Tumor |
+| da98ea54-62c1-4b95-acaa-1dcd98e53c12 | C3L-02705 | C3L-02705-71 | Tumor |
+| 20e86156-cdd7-4bea-8b17-2e630720df44 | C3N-02783 | C3N-02783-05 | Tumor |
+| 4a0d48cd-1c46-4d59-b4b0-ae842bf1323c | C3N-02769 | C3N-02769-02 | Tumor |
+| 9079231e-6906-4548-9f4f-684a86ed9b16 | C3L-03968 | C3L-03968-01 | Tumor |
+| c8ea9c15-368d-460c-9775-5037a5f1790a | C3N-02784 | C3N-02784-01 | Tumor |
 
 </details>
 
