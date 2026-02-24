@@ -60,6 +60,7 @@ TCGA_GBM_scRNA-seq/
 **Source:** A GBM subset from the [CPTAC-3 project](https://portal.gdc.cancer.gov/projects/CPTAC-3) on the [GDC Data Portal](https://portal.gdc.cancer.gov/)
 
 - **17 patient samples** of scRNA-seq data downloaded from GDC (CPTAC-3)
+- **~180,000 cells** and **~40,000 genes** after assembly
 - Raw data is extracted and assembled into an [AnnData](https://anndata.readthedocs.io/) `.h5ad` object in `TCGA_GBM_Preprocessing.ipynb`
 - The assembled dataset (`gbm_data.h5ad`) contains:
   - **Raw integer counts** in `adata.layers["counts"]` (required by scVI)
